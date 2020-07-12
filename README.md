@@ -19,9 +19,9 @@ So this module expects large images + json annotations in the same directory lik
 >
 >     annotations/img_*.png.json
 
-The module creates a generator which yields batches of (image_batch, label_batch) where the label is whether there's an anomaly or not (relevant only for testing)
+The module creates a generator which yields batches of `(image_batch, label_batch)` where the label is whether there's an anomaly or not (relevant only for testing)
 It may not be relevant for your use-case, but I've included it anyway so you can better understand the project's flow. 
-Bottom line is you only need to create a generator yielding (image_batch, label_batch) in order for the train/test to work.
+Bottom line is you only need to create a generator yielding `(image_batch, label_batch)` in order for the train/test to work.
 There are some recommendations however:
 - input shape should be - `(32, 32, c)` or `(64, 64, c)`. <br> Anything bigger would be very difficult to train.
 - inputs should be normalized to `[-1 , 1]` <br>
