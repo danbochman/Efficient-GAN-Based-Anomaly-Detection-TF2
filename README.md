@@ -9,7 +9,7 @@ You have 2 ways to build this environment (both using conda environment): <br>
 <br>
 `$ conda create --name <your_venv> --file requirements.txt` <br>
 or <br>
-`$ conda env update -n <your_venv> --file environment.yaml` <br>
+`$ conda env update -n <your_venv> --file environment.yml` <br>
 
 ## Project Structure
 
