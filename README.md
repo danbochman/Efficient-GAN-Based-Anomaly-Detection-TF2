@@ -3,8 +3,8 @@
 This repository was created as a lean, easy to use & adapt implementation of the ![Efficient GAN-Based Anomaly Detection](https://arxiv.org/pdf/1802.06222v2.pdf) 2018 paper
 
 ## Setup
-This repository was built in Anaconda (Python 3.7) on Ubuntu 18.04. It is highly recommened you use Anaconda to rebuild this repository as it will ensure
-your environment will be solved in terms of CUDA/cuDNN as well for GPU use. <br>
+This repository was built in Anaconda (Python 3.7) on Ubuntu 18.04. It is highly recommeneded you use Anaconda to rebuild this repository as it will ensure
+your environment will be solved in terms of dependencies such as CUDA/cuDNN for GPU use. <br>
 You have 2 ways to build this environment (both using conda environment): <br>
 <br>
 `$ conda create --name <your_venv> --file requirements.txt` <br>
