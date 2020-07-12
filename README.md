@@ -5,7 +5,7 @@ This repository was created as a lean, easy to use & adapt implementation of the
 ## Project Structure
 
 ### bigan module
-- bigan_model.py - includes all the part needed to build and initialize an BiGAN model
+- bigan_model.py - includes all the part needed to build and initialize a BiGAN model
 - bigan_trainer.py - code for the training the BiGAN, saving checkpoint and visualizations to TensorBoard
 - bigan_eval.py - code for running inference on the trained BiGAN with the logic implementation to use it as an anomaly detector + metric visualizations
 
