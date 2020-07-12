@@ -50,8 +50,8 @@ def img_slice_and_label(img, crop_size, bboxes=None, resize=False):
             crop = img[horizontal:horizontal + crop_size, vertical:vertical + crop_size]
 
             if resize:
-                width = int(crop.shape[1] * resize)
-                height = int(crop.shape[0] * resize)
+                w = int(crop.shape[1] * resize)
+                h = int(crop.shape[0] * resize)
                 crop = cv2.resize(crop, (width, height), interpolation=cv2.INTER_AREA)
 
             img_slices.append(crop)
