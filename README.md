@@ -1,6 +1,6 @@
 # Efficient GAN-Based Anomaly Detection (EGBAD) TensorFlow 2.x Implementation
 
-This repository was created as a lean, easy to use & adapt implementation of the ![Efficient GAN-Based Anomaly Detection](Efficient GAN-Based Anomaly Detection) 2018 paper
+This repository was created as a lean, easy to use & adapt implementation of the ![Efficient GAN-Based Anomaly Detection](https://arxiv.org/pdf/1802.06222v2.pdf) 2018 paper
 
 ## Project Structure
 
