@@ -11,12 +11,14 @@ This repository was created as a lean, easy to use & adapt implementation of the
 
 ### dataloader module
 My specific use case for the EGBAD was for large 4K images, which were needed to be sliced and labeled to be fed to the BiGAN efficiently.
-So this module expects large images + json annotations in the same directory like so:
-  `
-  data_dir/
-    -- images/img_*.png)
-    -- annotations/img_*.png.json)
-  `
+So this module expects large images + json annotations in the same directory like so: <br>
+
+> data_dir/ 
+>
+>     images/img_*.png
+>
+>     annotations/img_*.png.json
+
 The module creates a generator which yields batches of (image_batch, label_batch) where the label is whether there's an anomaly or not (relevant only for testing)
 It may not be relevant for your use-case, but I've included it anyway so you can better understand the project's flow. 
 Bottom line is you only need to create a generator yielding (image_batch, label_batch) in order for the train/test to work.
