@@ -2,6 +2,8 @@
 
 This repository was created as a lean, easy to use & adapt implementation of the ![Efficient GAN-Based Anomaly Detection](https://arxiv.org/pdf/1802.06222v2.pdf) 2018 paper
 
+![architecture_scheme](https://raw.githubusercontent.com/SnowMasaya/Efficient_GAN-Based_Anomaly_Detection_Keras/master/images/efficient_gan.png)
+
 ## Setup
 This repository was built in Anaconda (Python 3.7) on Ubuntu 18.04. It is highly recommended you use Anaconda to rebuild this repository as it will ensure
 your environment will be solved in terms of dependencies such as CUDA/cuDNN for GPU use. <br>
